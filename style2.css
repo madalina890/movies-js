@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.fa {
+    background-color: rgba(255, 209, 5, 0.986);
+    margin-left:120px;
+    margin-top: 10px;
+}
+
+.content_details{
+    display: flex;
+    font-size: 18px;
+}
+
+
+body{
+    background-color: wheat;
+    font-family: "Georgia";
+}
+.justImg{
+ margin-left: 100px;
+ margin-top:20px;
+}
+
+
+.title{
+    font-size: 21px;
+    font-weight: bold ;
+    margin-top:30px;
+    margin-left: 70px;
+}
+.info{
+    margin-left: 100px;
+    font-style: italic;
+    padding-top:20px;
+}
+.movie-plot{
+    margin-left: 70px;
+    padding-top: 25px;
+}
+.source_name{
+    margin-left: 110px;
+    display: flex;
+    padding-top:30px;
+}
+.movie_grade{
+    margin-left:120px;
+    padding-top: 10px;
+}

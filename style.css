@@ -1,0 +1,29 @@
+*{
+    margin:0 auto;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: wheat;
+}
+.content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 50px;
+    justify-items: center;
+}
+
+p{
+    font-family: "Georgia";
+    font-style: italic;
+    font-size: 19px;
+    width: 300px;
+    background-color:   rgba(236, 115, 59, 0.726);
+    color: rgb(151, 66, 16);
+    border-radius: 4px;
+    border:2px solid red;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+}
